@@ -24,6 +24,8 @@ df_1['atemp'] *= 50
 df_1['windspeed'] *= 67
 df_1['windspeed'] *= 100
 
+st.set_page_config(layout='wide')
+
 st.title('Bike Sharing Statistic Analysis')
 
 st.subheader('Your Analyst')
